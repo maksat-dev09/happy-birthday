@@ -1,3 +1,5 @@
 {
-  "outputDirectory": "happy"
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/happy/$1" }
+  ]
 }
